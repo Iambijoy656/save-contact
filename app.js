@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   var vCard = vCardsJS();
 
   //set properties
-  vCard.firstName = "sagar";
+  vCard.firstName = "bijoyyyyyyy";
   vCard.middleName = "J";
   vCard.lastName = "Nesser";
   vCard.organization = "ACME Corporation";
@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
   vCard.note = "Notes on Eric";
   vCard.version = "2.0";
   //set content-type and disposition including desired filename
-  res.set("Content-Type", 'text/vcard; name="ser.vcf"');
+  res.set("Content-Type", 'text/vcard; name="bij.vcf"');
   res.set("Content-Disposition", 'inline; filename="ser.vcf"');
 
   //send the response
