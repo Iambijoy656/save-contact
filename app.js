@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
   vCard.url = "https://github.com/enesser";
   vCard.workUrl = "https://acme-corporation/enesser";
   vCard.note = "Notes on Eric";
-  vCard.version = "3.0";
+  vCard.version = "4.0";
   //set content-type and disposition including desired filename
   res.set("Content-Type", 'text/vcard; name="enesser.vcf"');
   res.set("Content-Disposition", 'inline; filename="enesser.vcf"');
