@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
   vCard.version = "2.0";
   //set content-type and disposition including desired filename
   res.set("Content-Type", 'text/vcard; name="bij.vcf"');
-  res.set("Content-Disposition", 'inline; filename="ser.vcf"');
+  res.set("Content-Disposition", 'inline; filename="bij.vcf"');
 
   //send the response
   res.send(vCard.getFormattedString());
